@@ -37,9 +37,7 @@ public class App {
 
         //extrair apenas as infos do objeto jsonObject
 
-        Movies movie;
-        for (int i=0; i < moviesList.size() ; i++ ){
-            movie = moviesList.get(i);
+        for (Movies movie: moviesList){
             System.out.println(movie.getTitle());
             System.out.println(movie.getRank());
             System.out.println(movie.getImage());
