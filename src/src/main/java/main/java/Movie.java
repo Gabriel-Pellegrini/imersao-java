@@ -1,13 +1,13 @@
 package main.java;
 
-public class Movies {
+public class Movie {
     private String title;
     private String rank;
     private String image;
     private String year;
 
 
-    Movies (String title, String rank , String image , String year){
+    Movie (String title, String rank , String image , String year){
         this.title = title;
         this.rank = rank;
         this.image = image;

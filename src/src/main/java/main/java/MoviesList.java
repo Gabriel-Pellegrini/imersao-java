@@ -1,17 +1,18 @@
 package main.java;
 
-public class MoviesApi {
-    private Movies items[];
+
+public class MoviesList {
+    private Movie items[];
     private String error;
 
 
-    public MoviesApi(Movies [] items, String error){
+    public MoviesList(Movie[] items, String error){
 
         this.items = items;
         this.error = error;
     }
 
-    public Movies[] getItems(){
+    public Movie[] getItems(){
         return items;
     }
 
