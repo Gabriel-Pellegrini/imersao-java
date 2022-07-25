@@ -12,7 +12,7 @@
 *.ctxt
 
 #images
-src/src/main/java/images/*.png
+src/main/java/images/*.png
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
